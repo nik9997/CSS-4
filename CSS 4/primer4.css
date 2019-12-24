@@ -1,0 +1,161 @@
+body {
+	font-family:Arial;
+	color:#333;
+	font-size:11px;
+	background:url(images/bg.jpg) no-repeat center top #b8b6bb;	
+	padding:0;
+	margin:0;
+}
+
+p {
+	margin:0;
+	padding:5px 0 0 0;
+	text-align:justify;
+	line-height::15px;
+}
+
+.title {
+	padding:2px 0 2px 0;
+	color:#409efd;
+	font-size:14px;
+	font-weight:bolder;
+}
+
+.podpis {font-weight:bolder;}
+
+.ev {
+	padding:3px;
+	border:1px #409efd solid;
+}
+
+#lf {
+	float:right;
+	padding:3px;
+	border:1px #E459EF solid;
+}
+
+.menu {
+	clear:both;
+	height:23px;
+	padding:55px 0 0 20px;
+}
+
+.menu a {
+	font-weight:bolder;
+	font-style:italic;
+	color:#000;
+	font-size:14px;
+	padding-right:18px;
+	text-decoration:none;
+}
+
+.menu a:hover {
+	color:#E459EF;
+	text-decoration:none;
+}
+
+ul.spisok {
+	list-style-image:url(images/list_arrow.gif);
+	list-style-position:inside;
+	padding:0;
+	margin:0;
+	line-height:30px;
+}
+
+ul.spisok li a {
+	padding:10px 0 10px 0;
+	margin:10px 10px 10px 0;
+	color:#000;
+	text-decoration:none;
+}
+
+ul.spisok li a:hover {
+	text-decoration:underline;
+	color:#E459EF;
+}
+
+#footer {
+	width:950px;
+	height:51px;
+	color:#E459EF;
+	background:url(images/footer.gif) repeat-x;
+	padding-top:30px;
+	text-align:center;
+	clear:both;
+}
+
+#main_block {
+	width:950px;
+	height:auto;
+	margin:auto;
+	padding:0;
+	position:relative;
+	background-color:#FFF;
+}
+
+#me {
+	position:absolute;
+	top:200px;
+	right:40px;
+	z-index:1000;
+}
+
+#logo {
+	width:245px;
+	height:61px;
+	float:left;
+	padding:35px 0 0 20px;
+}
+
+#header {
+	width:950px;
+	height:175px;
+	background:url(images/top_bg.jpg) no-repeat;
+	margin:0;
+	padding:0;
+}
+
+#latest {
+	width:400px;
+	height:auto;
+	float:left;
+	padding:0 15px 0 10px;
+	border-left:1px #8c3426 dotted;
+	border-right:1px #8c3426 dotted;
+	margin:20px 0 0 30px;
+}
+
+#center_content {
+	width:950px;
+	height:auto;
+	clear:both;
+	padding-top:35px;
+	background:url(images/center_bg.gif) no-repeat top center;
+}
+
+.left_content {
+	width:400px;
+	float:left;
+	padding:20px;
+}
+
+.right_content {
+	width:200px;
+	float:left;
+	padding:20px 10px 10px 10px;
+}
+
+.fotos {
+	width:auto;
+	height:auto;
+	clear:both;
+	padding:15px;
+}
+
+.box {
+	width:199px;
+	height:164px;
+	float:left;
+	padding:20px 12px 20px 12px;
+	text-align:center;
+}
